@@ -16,16 +16,22 @@ public class Ejemplo012 {
      */
     public static void main(String[] args) {
         
-        System.out.println("Ciclo con incremente de contador de 5 en 5");            
+        System.out.println("Ciclo con incremento de contador de 5 en 5");            
       
         for (int i = 0; i < 10; i += 5) {
             System.out.printf("%d\n", i);
         }
         
-        System.out.println("Ciclo con incremente de contador de 3 en 3");            
+        System.out.println("Ciclo con incremento de contador de 3 en 3");            
         
         for (int i = 0; i < 10; i += 3) {
             System.out.printf("%d\n", i);
+        }
+        
+        System.out.println("Ciclo con incremento de contador de 2 en 2");  
+        for (int i = 20; i <= 30; i+= 2) {
+            System.out.printf("%d\n", i);
+            
         }
         
         
